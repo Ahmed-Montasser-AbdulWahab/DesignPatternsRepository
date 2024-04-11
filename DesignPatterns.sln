@@ -3,25 +3,26 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StrategyPattern", "StrategyPattern\StrategyPattern.csproj", "{A3B02915-BB96-403C-A094-E20E34CF0FBE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StrategyPattern", "StrategyPattern\StrategyPattern.csproj", "{A3B02915-BB96-403C-A094-E20E34CF0FBE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObserverPattern", "ObserverPattern\ObserverPattern.csproj", "{CA9CC475-9A56-48A1-AFE4-6AC1665184AE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ObserverPattern", "ObserverPattern\ObserverPattern.csproj", "{CA9CC475-9A56-48A1-AFE4-6AC1665184AE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DecoratorPattern", "DecoratorPattern\DecoratorPattern.csproj", "{CC0DBAB7-B337-48C9-B7F8-6290BBED5C32}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DecoratorPattern", "DecoratorPattern\DecoratorPattern.csproj", "{CC0DBAB7-B337-48C9-B7F8-6290BBED5C32}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactoryPattern", "FactoryPattern\FactoryPattern.csproj", "{CF474366-6BCF-4BB6-8470-846C76CB83E6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FactoryPattern", "FactoryPattern\FactoryPattern.csproj", "{CF474366-6BCF-4BB6-8470-846C76CB83E6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SingletonPattern", "SingletonPattern\SingletonPattern.csproj", "{DAA4DB20-301C-4A45-8A5A-BBAE5B842AF8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SingletonPattern", "SingletonPattern\SingletonPattern.csproj", "{DAA4DB20-301C-4A45-8A5A-BBAE5B842AF8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommandPattern", "CommandPattern\CommandPattern.csproj", "{3B133A32-CDC3-4DD4-B415-57E9706EB503}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CommandPattern", "CommandPattern\CommandPattern.csproj", "{3B133A32-CDC3-4DD4-B415-57E9706EB503}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdapterPattern", "AdapterPattern\AdapterPattern.csproj", "{EE61F48E-B61D-4506-9390-BF121553AAF7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IteratorPattern", "IteratorPattern\IteratorPattern.csproj", "{56EF38A6-3435-44C7-BC41-B829757833DD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{A3B02915-BB96-403C-A094-E20E34CF0FBE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -48,5 +49,19 @@ Global
 		{3B133A32-CDC3-4DD4-B415-57E9706EB503}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3B133A32-CDC3-4DD4-B415-57E9706EB503}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3B133A32-CDC3-4DD4-B415-57E9706EB503}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE61F48E-B61D-4506-9390-BF121553AAF7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE61F48E-B61D-4506-9390-BF121553AAF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE61F48E-B61D-4506-9390-BF121553AAF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE61F48E-B61D-4506-9390-BF121553AAF7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{56EF38A6-3435-44C7-BC41-B829757833DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56EF38A6-3435-44C7-BC41-B829757833DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56EF38A6-3435-44C7-BC41-B829757833DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56EF38A6-3435-44C7-BC41-B829757833DD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DF4971AE-10CC-41BE-BA86-9E0311DE1C56}
 	EndGlobalSection
 EndGlobal
